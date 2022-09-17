@@ -1,0 +1,296 @@
+#exptrvl{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero_1.jpg");
+    padding: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#genda{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Genda/smartmockup_genda.jpg");
+    padding: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#gip{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/GIP/GIP_Mockup.jpg");
+    padding: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.active {
+    background-color: white;
+}
+
+#space{
+    max-width: 32px;
+}
+
+
+iframe{
+    display: flex;
+    margin: 0 auto;
+}
+
+.overView{
+    padding: 50px;
+    
+}
+
+.Statements{ 
+    position: relative;
+    text-align: center;
+    padding-right: 500px;
+    padding-left: 500px;
+ 
+}
+
+.userInsight{
+    padding-top: 64px;
+    padding-bottom:64px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+  }
+
+  .grid-item{
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  
+  }
+
+  .grid-item img{
+      width: 100%;
+      height: auto;
+  }
+
+  .grid-item h4{
+      color: white;
+  }
+
+  .competitorAnalysis p{
+      color: white;
+  }
+
+  .competitorAnalysis h4{
+                text-align: center;
+                padding: 50px;
+  }
+
+  .competitorAnalysis img{
+    max-width: 100%;
+    height: auto;
+}
+
+  .grid-items{
+      padding: 20px;
+      
+  }
+
+  .grid-items h4{
+            padding-bottom: 20px;
+            text-align: center;
+  }
+
+  .grid-items p{
+            text-align: center;
+  }
+  
+  #p2{
+      margin: 0;
+      padding: 0;
+      line-height: 24px;
+  }
+  #p1{
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+
+  }
+
+
+  .figma{
+      padding-top: 50px;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .userPersona{
+    margin: auto;
+    text-align: center;
+  }
+
+  .userPersona img{
+    width: 1272px; 
+    height: auto;
+  }
+
+  .userPersona h4{
+      padding: 50px;
+  }
+
+  .userPersona p{
+      color: #696767;
+      padding-left: 500px;
+      padding-right: 500px;
+      padding-bottom: 50px;
+  }
+
+  .competitorAnalysis p{
+    color: black;
+  }
+
+  .identify{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .mockUp h4{
+            padding: 50px;
+            margin:auto;
+            text-align: center;
+  }
+
+  .majorScreens img{
+    max-width: 100%; 
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ .row{
+     width: 100%;
+     justify-content: space-around;
+ }
+ 
+  .row h4{
+      text-align: center;
+      
+  }
+
+  .row img{
+    width: 100%;
+    height: auto;
+    
+
+  }
+
+  
+
+  .finalThoughts p{
+      padding-right: 6px;
+      padding-left: 6px;
+  }
+
+  .finalThoughts{
+    margin: auto;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+.userFlow{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    background-color: #2196F3; 
+    border-radius: 8px;
+  }
+  button:hover{
+    background: #0b7dda;
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 900px) {
+   .row{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    gap: 50px 50px;
+   }
+   
+    .grid-item {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .grid-items{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .userPersona img{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+      }
+    
+      .Statements{ 
+        position: relative;
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+     
+    }
+
+    .finalThoughts{
+        margin: auto;
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+
+      .userPersona p{
+        color: #696767;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+  }
+
+  
