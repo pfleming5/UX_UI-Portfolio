@@ -80,8 +80,8 @@ h2:hover{
 
 }
 .Project img{
-    width: 85%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
     padding: 24px;
 }
 
@@ -321,6 +321,6 @@ footer{
         span h3{
             text-align: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 18px;
         }
     }
