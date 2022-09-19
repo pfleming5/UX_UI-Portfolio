@@ -305,8 +305,8 @@ footer{
                     display: grid;
                     grid-template-columns: 10px;
                     grid-template-rows: 1fr 1fr 1fr 1fr;
-                    width: 15%;
-                    align-items: center;
+                    width: 25%;
+                    align-items:center;
                     justify-content: center;
                     
                 }
@@ -323,4 +323,15 @@ footer{
             align-items: center;
             font-size: 18px;
         }
+
+        Links{
+            display: grid;
+            grid-template-columns: 10px;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            width: 25%;
+            align-items:center;
+            justify-content: center;
+            
+        }
+
     }
